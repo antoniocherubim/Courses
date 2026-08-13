@@ -87,10 +87,7 @@ O roadmap registra:
 
 **[Fronteira atual →](roadmap/NOW.md)**
 
-O roadmap também contém:
-
-- [`BASELINE`](roadmap/BASELINE.md) — conhecimento prévio;
-- [`NOW`](roadmap/NOW.md) — fronteira atual.
+O roadmap também contém [`NOW`](roadmap/NOW.md), que registra a fronteira atual.
 
 ---
 
@@ -147,7 +144,6 @@ Courses/
 │
 └── roadmap/
     ├── README.md
-    ├── BASELINE.md
     └── NOW.md
 ```
 

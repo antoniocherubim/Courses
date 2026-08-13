@@ -4,8 +4,6 @@
 
 > Estrutura, movimento, energia, campos e matéria em diferentes escalas.
 
-> Existe formação universitária prévia em Física Geral e Experimental I/II e Termodinâmica. O mapeamento dessas disciplinas para os tópicos abaixo é aproximado; o track representa a organização conceitual futura, não uma transcrição curricular.
-
 ## Currículo
 
 | ID | Class | Status |

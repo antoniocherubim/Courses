@@ -1,6 +1,6 @@
 # Roadmap — Personal Knowledge Roadmap
 
-[← Courses](../README.md) · [Classes](../classes/) · [Maps](../maps/) · [Baseline](BASELINE.md) · [NOW](NOW.md)
+[← Courses](../README.md) · [Classes](../classes/) · [Maps](../maps/) · [NOW](NOW.md)
 
 Este roadmap não é uma agenda rígida e não representa uma tentativa de estudar tudo simultaneamente.
 
@@ -24,20 +24,6 @@ Ele mantém uma **visão de longo prazo** enquanto o trabalho cotidiano permanec
 # Frente atual
 
 A visão operacional e mutável fica em **[NOW — Fronteira atual](NOW.md)**. Este arquivo preserva a direção de longo prazo e as convergências entre áreas.
-
-## Baseline
-
-O roadmap distingue conhecimento futuro de conhecimento já estudado, mas ainda não externalizado.
-
-**[Ver conhecimento prévio →](BASELINE.md)**
-
-```text
-BASELINE → de onde o percurso parte
-ROADMAP  → onde ele pode chegar
-NOW      → onde está a atenção atual
-```
-
----
 
 # Conhecimento a externalizar
 
