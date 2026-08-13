@@ -12,6 +12,19 @@ Maps respondem:
 
 Os mapas devem permanecer sintéticos e apontar para masterclasses, notas e projetos. Não substituem cursos completos.
 
+## Índice
+
+| Map | Estado | Pergunta central |
+|---|:---:|---|
+| [Escalas, Estruturas e Invariantes](scales-structures-invariants.md) | 📘 | O que permanece e o que muda entre escalas? |
+| [Knowledge Graph](knowledge-graph.md) | 📘 | Como os tracks se conectam? |
+| Informação | 🧭 | Como codificação, transmissão e representação reaparecem? |
+| Dinâmica | 🧭 | Como estados evoluem? |
+| Memória e História | 🧭 | Como o passado restringe futuros possíveis? |
+| Emergência | 🧭 | Quando uma descrição coletiva se torna útil? |
+| Incerteza e Inferência | 🧭 | Como atualizar modelos com informação incompleta? |
+| Aprendizado e Adaptação | 🧭 | Como feedback altera o sistema? |
+
 ---
 
 ## 1. Computação

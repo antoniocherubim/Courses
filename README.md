@@ -43,6 +43,8 @@ Os mapas não são cursos. Eles conectam ideias recorrentes entre disciplinas.
 
 **[Abrir mapas conceituais →](maps/README.md)**
 
+**[Mapa de escalas e invariantes →](maps/scales-structures-invariants.md)**
+
 Exemplos:
 
 ```text
@@ -74,7 +76,7 @@ dinâmica
 
 O roadmap registra:
 
-- o que já está consolidado;
+- o que já está estruturado;
 - o que está em estudo;
 - conhecimento parcial ainda não externalizado;
 - próximos fundamentos;
@@ -82,6 +84,8 @@ O roadmap registra:
 - dependências e convergências entre áreas.
 
 **[Abrir roadmap pessoal de conhecimento →](roadmap/README.md)**
+
+**[Fronteira atual →](roadmap/NOW.md)**
 
 ---
 
@@ -91,21 +95,23 @@ A base prática está concentrada no Track A:
 
 | ID | Masterclass | Estado |
 |---|---|:---:|
-| A01 | Python | ✅ |
-| A02 | C++ e POO | ✅ |
+| A01 | Python | 📘 |
+| A02 | C++ e POO | 📘 |
 | A03 | C | 🟡 |
 | A04 | Algoritmos e Estruturas de Dados em C | 🟡 |
-| A05 | Assembly x86-64 | ✅ |
-| A06 | Arquitetura de Computadores | ✅ |
+| A05 | Assembly x86-64 | 📘 |
+| A06 | Arquitetura de Computadores | 📘 |
 
 Legenda:
 
 ```text
-✅ material estruturado / consolidado
-🟡 em estudo ativo ou expansão
-🧭 conhecimento parcial; estruturar futuramente
-⬜ lacuna ou ainda não estruturado
+📘 estruturado      → existe material principal utilizável no repositório
+🟡 em estruturação → existe material, mas ainda está sendo ampliado/revisado
+🧭 a externalizar  → há familiaridade/estudo prévio, mas o conhecimento ainda não foi organizado como masterclass
+⬜ planejado        → conteúdo futuro ainda não estruturado
 ```
+
+> O status mede o estado de externalização do conhecimento no repositório, não certifica domínio completo da matéria.
 
 ---
 
@@ -118,6 +124,7 @@ Courses/
 │
 ├── classes/
 │   ├── README.md
+│   ├── TEMPLATE.md
 │   ├── track-a-programming-systems/
 │   ├── track-b-mathematics/
 │   ├── track-c-scientific-computing-ml/
@@ -129,10 +136,13 @@ Courses/
 │   └── track-i-biology-biotechnology/
 │
 ├── maps/
-│   └── README.md
+│   ├── README.md
+│   ├── knowledge-graph.md
+│   └── scales-structures-invariants.md
 │
 └── roadmap/
-    └── README.md
+    ├── README.md
+    └── NOW.md
 ```
 
 Uma masterclass física só deve existir quando houver conteúdo real:

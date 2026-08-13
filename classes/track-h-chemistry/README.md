@@ -1,8 +1,10 @@
 # Track H — Chemistry
 
-[← Classes](../README.md) · [Maps](../../maps/) · [Roadmap](../../roadmap/)
+[← Classes](../README.md) · [Maps](../../maps/) · [Roadmap](../../roadmap/) · [NOW](../../roadmap/NOW.md)
 
 > Como estrutura eletrônica, energia e interação molecular produzem matéria e transformação química.
+
+## Currículo
 
 | ID | Masterclass | Status |
 |---|---|:---:|
@@ -25,3 +27,5 @@ G09 Quântica ────────► H01/H02/H07
 H09 Bioquímica ──────► Track I
 C Scientific Comp ───► H10
 ```
+
+H09 trata da química das biomoléculas, de suas estruturas, termodinâmica e mecanismos de reação. A organização metabólica dessas reações em sistemas vivos pertence a I04.

@@ -1,15 +1,17 @@
 # Track I — Biology & Biotechnology
 
-[← Classes](../README.md) · [Maps](../../maps/) · [Roadmap](../../roadmap/)
+[← Classes](../README.md) · [Maps](../../maps/) · [Roadmap](../../roadmap/) · [NOW](../../roadmap/NOW.md)
 
 > Organização, informação, metabolismo, evolução e engenharia de sistemas vivos.
+
+## Currículo
 
 | ID | Masterclass | Status |
 |---|---|:---:|
 | I01 | Biologia Celular | 🧭 |
 | I02 | Biologia Molecular | 🧭 |
 | I03 | Genética | 🧭 |
-| I04 | Bioquímica para Sistemas Vivos | 🧭 |
+| I04 | Metabolismo e Bioenergética Celular | 🧭 |
 | I05 | Fisiologia | 🧭 |
 | I06 | Evolução | 🧭 |
 | I07 | Ecologia e Biologia de Sistemas | 🧭 |
@@ -21,10 +23,12 @@
 ## Pontes
 
 ```text
-H09 Bioquímica ─────────► I01–I05
+H09 Bioquímica ─────────► I04 Metabolismo e Bioenergética Celular
 B04 Probabilidade ──────► I03/I06/I10
 B09 Sistemas Dinâmicos ─► I05/I07
 B10 Informação ─────────► I02/I03/I10
 C Scientific Computing ─► I10
 I05 ────────────────────► Track D
 ```
+
+H09 estuda a química das biomoléculas e reações; I04 estuda como essas reações são organizadas metabolicamente dentro de sistemas vivos.

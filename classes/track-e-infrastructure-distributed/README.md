@@ -1,10 +1,10 @@
 # Track E — Infrastructure & Distributed Systems
 
-[← Mapa geral](../README.md)
+[← Classes](../README.md) · [Maps](../../maps/) · [Roadmap](../../roadmap/) · [NOW](../../roadmap/NOW.md)
 
 > Como processos deixam de viver em uma única máquina e passam a formar serviços confiáveis.
 
-## Sequência
+## Currículo
 
 | ID | Masterclass | Status | Pré-requisitos |
 |---|---|:---:|---|

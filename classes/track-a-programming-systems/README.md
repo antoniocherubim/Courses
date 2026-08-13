@@ -1,19 +1,19 @@
 # Track A — Programming & Systems
 
-[← Mapa geral](../README.md)
+[← Classes](../README.md) · [Maps](../../maps/) · [Roadmap](../../roadmap/) · [NOW](../../roadmap/NOW.md)
 
 > Do código de alto nível à máquina, ao sistema operacional e aos runtimes.
 
-## Sequência
+## Currículo
 
 | ID | Masterclass | Status | Pré-requisitos |
 |---|---|:---:|---|
-| A01 | [Python](A01-python/) | ✅ | — |
-| A02 | [C++ e POO](A02-cpp-poo/) | ✅ | lógica de programação |
+| A01 | [Python](A01-python/) | 📘 | — |
+| A02 | [C++ e POO](A02-cpp-poo/) | 📘 | lógica de programação |
 | A03 | [Linguagem C](A03-c/) | 🟡 | lógica de programação |
 | A04 | [Algoritmos e Estruturas de Dados em C](A04-algoritmos-estruturas-dados/) | 🟡 | A03 |
-| A05 | [Assembly x86-64](A05-assembly/) | ✅ | A03 recomendado |
-| A06 | [Arquitetura de Computadores](A06-arquitetura-computadores/) | ✅ | A05 recomendado |
+| A05 | [Assembly x86-64](A05-assembly/) | 📘 | A03 recomendado |
+| A06 | [Arquitetura de Computadores](A06-arquitetura-computadores/) | 📘 | A05 recomendado |
 | A07 | Memória e Representação de Dados | ⬜ | A03, A05, A06 |
 | A08 | Sistemas Operacionais | ⬜ | A05–A07 |
 | A09 | Linux Systems | ⬜ | A08 |

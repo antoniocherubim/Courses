@@ -6,6 +6,8 @@ O repositório separa três funções que antes estavam misturadas no README pri
 
 Uma masterclass ensina um tópico com profundidade suficiente para servir como material de estudo e consulta.
 
+> Os IDs são identificadores estáveis dentro de cada track. Eles ajudam a navegação e as dependências, mas não representam uma ordem temporal obrigatória de estudo.
+
 Exemplos:
 
 ```text
@@ -56,3 +58,18 @@ Contém:
 ```
 
 Essa separação mantém o README raiz curto e permite que o repositório cresça por anos sem virar uma lista linear gigantesca.
+
+## Fontes e níveis de afirmação
+
+As masterclasses são sínteses de estudo e consulta.
+
+Ao integrar ciência, matemática, neurociência e IA, distinguir explicitamente quando relevante:
+
+- definição formal;
+- resultado estabelecido / evidência empírica;
+- modelo;
+- hipótese;
+- interpretação;
+- analogia ou metáfora.
+
+Livros, papers, aulas, canais e documentações devem ser registrados como referências, não tratados automaticamente como autoridade única.

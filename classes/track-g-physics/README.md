@@ -1,8 +1,10 @@
 # Track G — Physics
 
-[← Classes](../README.md) · [Maps](../../maps/) · [Roadmap](../../roadmap/)
+[← Classes](../README.md) · [Maps](../../maps/) · [Roadmap](../../roadmap/) · [NOW](../../roadmap/NOW.md)
 
 > Estrutura, movimento, energia, campos e matéria em diferentes escalas.
+
+## Currículo
 
 | ID | Masterclass | Status |
 |---|---|:---:|

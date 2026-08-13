@@ -1,10 +1,10 @@
 # Track C — Scientific Computing & Machine Learning
 
-[← Mapa geral](../README.md)
+[← Classes](../README.md) · [Maps](../../maps/) · [Roadmap](../../roadmap/) · [NOW](../../roadmap/NOW.md)
 
 > Da matemática numérica aos modelos de aprendizado executados em CPU e GPU.
 
-## Sequência
+## Currículo
 
 | ID | Masterclass | Status | Pré-requisitos |
 |---|---|:---:|---|

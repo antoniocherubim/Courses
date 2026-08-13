@@ -4,6 +4,8 @@
 
 Cada track representa uma área relativamente estável. As dependências entre eles são explícitas, mas não existe uma única sequência obrigatória.
 
+> Os IDs são identificadores estáveis dentro de cada track. Eles ajudam a navegação e as dependências, mas não representam uma ordem temporal obrigatória de estudo.
+
 ---
 
 ## Tracks
@@ -86,12 +88,12 @@ Isso é apenas o esqueleto disciplinar. Conceitos que atravessam várias áreas 
 
 | ID | Curso | Status |
 |---|---|:---:|
-| A01 | Python | ✅ |
-| A02 | C++ e POO | ✅ |
+| A01 | Python | 📘 |
+| A02 | C++ e POO | 📘 |
 | A03 | C | 🟡 |
 | A04 | Algoritmos e Estruturas de Dados | 🟡 |
-| A05 | Assembly x86-64 | ✅ |
-| A06 | Arquitetura de Computadores | ✅ |
+| A05 | Assembly x86-64 | 📘 |
+| A06 | Arquitetura de Computadores | 📘 |
 | demais | roadmap | 🧭 / ⬜ |
 
 Os IDs são estáveis dentro de cada track. Adicionar uma nova aula de física não renumera computação, neurociência ou matemática.

@@ -1,6 +1,6 @@
 # Roadmap — Personal Knowledge Roadmap
 
-[← Courses](../README.md) · [Classes](../classes/) · [Maps](../maps/)
+[← Courses](../README.md) · [Classes](../classes/) · [Maps](../maps/) · [NOW](NOW.md)
 
 Este roadmap não é uma agenda rígida e não representa uma tentativa de estudar tudo simultaneamente.
 
@@ -11,33 +11,37 @@ Ele mantém uma **visão de longo prazo** enquanto o trabalho cotidiano permanec
 ## Estados
 
 ```text
-✅ consolidado / material estruturado
-🟡 em estudo ativo
-🧭 conhecimento parcial; externalizar ou aprofundar futuramente
-⬜ lacuna / ainda não estruturado
+📘 estruturado      → existe material principal utilizável no repositório
+🟡 em estruturação → existe material, mas ainda está sendo ampliado/revisado
+🧭 a externalizar  → há familiaridade/estudo prévio, mas o conhecimento ainda não foi organizado como masterclass
+⬜ planejado        → conteúdo futuro ainda não estruturado
 ```
+
+> O status mede o estado de externalização do conhecimento no repositório, não certifica domínio completo da matéria.
 
 ---
 
-# Frente ativa
+# Frente atual
 
-O eixo imediato continua estreito:
+A visão operacional e mutável fica em **[NOW — Fronteira atual](NOW.md)**. Este arquivo preserva a direção de longo prazo e as convergências entre áreas.
+
+---
+
+# Conhecimento a externalizar
+
+Alguns tópicos já possuem familiaridade ou estudo prévio, mas ainda não foram organizados como masterclasses:
 
 ```text
-A03 C
-   │
-   ├──► A04 Algoritmos e Estruturas de Dados
-   │
-   └──► A05 Assembly
-             ↓
-        A06 Arquitetura
-             ↓
-        A07 Memória
-             ↓
-        A08 Sistemas Operacionais
-```
+B06 Topologia
+B09 Sistemas Dinâmicos
 
-Esse eixo constrói a espinha dorsal de **como a máquina funciona**.
+D01 Neurociência Computacional
+D03 Código Neural / populações
+D05 Redes de Atratores
+D06 Sistemas Dinâmicos Neurais
+D07 Neural Manifolds
+D10 Memória / Engramas
+```
 
 ---
 

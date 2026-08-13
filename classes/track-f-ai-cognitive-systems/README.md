@@ -1,12 +1,12 @@
 # Track F — AI & Cognitive Systems
 
-[← Mapa geral](../README.md)
+[← Classes](../README.md) · [Maps](../../maps/) · [Roadmap](../../roadmap/) · [NOW](../../roadmap/NOW.md)
 
 > Como modelos, memória, ferramentas e mecanismos de controle são compostos em sistemas inteligentes.
 
 Este track fica deliberadamente depois de bases importantes dos Tracks A, C e E. O objetivo é estudar **sistemas**, não apenas APIs de modelos.
 
-## Sequência
+## Currículo
 
 | ID | Masterclass | Status | Dependências principais |
 |---|---|:---:|---|
