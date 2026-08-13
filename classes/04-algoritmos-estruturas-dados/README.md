@@ -4,6 +4,8 @@
 >
 > Objetivo: aprender a organizar e transformar dados com correção e eficiência, mantendo visíveis os custos de tempo e memória. A [masterclass de Linguagem C](../03-c/) é o pré-requisito recomendado.
 
+[← C](../03-c/) · [↑ Índice](../README.md) · [Próxima → Assembly](../05-assembly/)
+
 ---
 
 # Sumário
@@ -1877,3 +1879,6 @@ custos
 
 Esse é um dos melhores caminhos para realmente aprender a "conversar com a máquina".
 
+---
+
+[← C](../03-c/) · [↑ Índice](../README.md) · [Próxima → Assembly](../05-assembly/)

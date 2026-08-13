@@ -2,6 +2,8 @@
 
 > Um caderno de estudo e consulta para quem quer entender o que acontece entre C/C++, o sistema operacional e a CPU.
 
+[← Algoritmos e Estruturas de Dados](../04-algoritmos-estruturas-dados/) · [↑ Índice](../README.md) · [Próxima → Arquitetura de Computadores](../06-arquitetura-computadores/)
+
 ---
 
 ## Sumário
@@ -3328,3 +3330,7 @@ Para cada trecho, faça quatro perguntas:
 4. **Qual abstração de C/C++ isso está implementando?**
 
 Se você consegue responder essas quatro perguntas, está realmente aprendendo Assembly.
+
+---
+
+[← Algoritmos e Estruturas de Dados](../04-algoritmos-estruturas-dados/) · [↑ Índice](../README.md) · [Próxima → Arquitetura de Computadores](../06-arquitetura-computadores/)

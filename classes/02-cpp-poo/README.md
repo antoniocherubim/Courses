@@ -2,6 +2,8 @@
 
 > Guia de estudo, consulta e prática — do básico da linguagem ao C++ moderno e à Programação Orientada a Objetos.
 
+[← Python](../01-python/) · [↑ Índice](../README.md) · [Próxima → C](../03-c/)
+
 ---
 
 ## Sumário
@@ -2675,3 +2677,7 @@ Depois deste material, vale estudar separadamente:
 ---
 
 > **Regra de ouro em C++ moderno:** faça o compilador e os tipos trabalharem a seu favor. Prefira construir abstrações que tornem estados inválidos difíceis ou impossíveis de representar.
+
+---
+
+[← Python](../01-python/) · [↑ Índice](../README.md) · [Próxima → C](../03-c/)

@@ -4,6 +4,8 @@
 >
 > Objetivo: entender não apenas *como escrever código em C*, mas também **o que o computador está fazendo** e como os dados são representados e manipulados na memória.
 
+[← C++ e POO](../02-cpp-poo/) · [↑ Índice](../README.md) · [Próxima → Algoritmos e Estruturas de Dados](../04-algoritmos-estruturas-dados/)
+
 ---
 
 # Sumário
@@ -1830,5 +1832,4 @@ valgrind --leak-check=full ./programa
 
 ---
 
-A trilha continua em [Algoritmos e Estruturas de Dados em C](../04-algoritmos-estruturas-dados/).
-
+[← C++ e POO](../02-cpp-poo/) · [↑ Índice](../README.md) · [Próxima → Algoritmos e Estruturas de Dados](../04-algoritmos-estruturas-dados/)

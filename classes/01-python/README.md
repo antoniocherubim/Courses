@@ -6,6 +6,8 @@
 >
 > Atualizado para **Python 3.14.6** (série 3.14).
 
+[↑ Índice das masterclasses](../README.md) · [Próxima → C++ e POO](../02-cpp-poo/)
+
 ---
 
 ## Sumário
@@ -4990,3 +4992,7 @@ Não é uma regra absoluta. É uma heurística para preservar simplicidade.
 ---
 
 > **Resumo mental:** Python fica muito mais previsível quando você deixa de pensar em “variáveis e sintaxe” e passa a pensar em **objetos, protocolos e bindings de nomes**. Iteração, funções, classes, decorators, context managers, operadores, properties e até boa parte do comportamento de tipos são manifestações de protocolos do data model. Dominar esses protocolos é a passagem de “saber Python” para “entender Python”.
+
+---
+
+[↑ Índice das masterclasses](../README.md) · [Próxima → C++ e POO](../02-cpp-poo/)
