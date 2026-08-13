@@ -6,8 +6,6 @@ Este arquivo registra áreas em que já existe formação acadêmica ou estudo p
 
 Ele não representa domínio, certificação ou estado atual de retenção.
 
-Também não reproduz histórico escolar, notas ou dados pessoais.
-
 ---
 
 ## Matemática
