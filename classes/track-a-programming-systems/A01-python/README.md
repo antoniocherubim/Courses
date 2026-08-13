@@ -6,7 +6,7 @@
 >
 > Atualizado para **Python 3.14.6** (série 3.14).
 
-[↑ Índice das masterclasses](../README.md) · [Próxima → C++ e POO](../02-cpp-poo/)
+[↑ Track A](../README.md) · [↑ Courses](../../../README.md) · [Próxima → A02 C++ e POO](../A02-cpp-poo/)
 
 ---
 
@@ -4995,4 +4995,4 @@ Não é uma regra absoluta. É uma heurística para preservar simplicidade.
 
 ---
 
-[↑ Índice das masterclasses](../README.md) · [Próxima → C++ e POO](../02-cpp-poo/)
+[↑ Track A](../README.md) · [↑ Courses](../../../README.md) · [Próxima → A02 C++ e POO](../A02-cpp-poo/)

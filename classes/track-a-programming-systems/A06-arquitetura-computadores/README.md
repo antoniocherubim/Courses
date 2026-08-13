@@ -3,7 +3,7 @@
 
 > Um caderno de estudo e consulta para entender como instruções Assembly se transformam em operações físicas dentro de um computador.
 
-[← Assembly](../05-assembly/) · [↑ Índice](../README.md) · Próxima: **07 — Memória e Representação de Dados**
+[← A05 Assembly](../A05-assembly/) · [↑ Track A](../README.md) · Próxima: **A07 — Memória e Representação de Dados**
 
 ---
 
@@ -1958,4 +1958,4 @@ Essas cinco perguntas conectam software, arquitetura e hardware.
 
 ---
 
-[← Assembly](../05-assembly/) · [↑ Índice](../README.md) · Próxima: **07 — Memória e Representação de Dados**
+[← A05 Assembly](../A05-assembly/) · [↑ Track A](../README.md) · Próxima: **A07 — Memória e Representação de Dados**

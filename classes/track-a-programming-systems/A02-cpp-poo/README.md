@@ -2,7 +2,7 @@
 
 > Guia de estudo, consulta e prática — do básico da linguagem ao C++ moderno e à Programação Orientada a Objetos.
 
-[← Python](../01-python/) · [↑ Índice](../README.md) · [Próxima → C](../03-c/)
+[← A01 Python](../A01-python/) · [↑ Track A](../README.md) · [Próxima → A03 C](../A03-c/)
 
 ---
 
@@ -2680,4 +2680,4 @@ Depois deste material, vale estudar separadamente:
 
 ---
 
-[← Python](../01-python/) · [↑ Índice](../README.md) · [Próxima → C](../03-c/)
+[← A01 Python](../A01-python/) · [↑ Track A](../README.md) · [Próxima → A03 C](../A03-c/)

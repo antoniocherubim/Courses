@@ -2,9 +2,9 @@
 
 > Um caderno de estudo e consulta para algoritmos e estruturas de dados implementados em C.
 >
-> Objetivo: aprender a organizar e transformar dados com correção e eficiência, mantendo visíveis os custos de tempo e memória. A [masterclass de Linguagem C](../03-c/) é o pré-requisito recomendado.
+> Objetivo: aprender a organizar e transformar dados com correção e eficiência, mantendo visíveis os custos de tempo e memória. A [masterclass de Linguagem C](../A03-c/) é o pré-requisito recomendado.
 
-[← C](../03-c/) · [↑ Índice](../README.md) · [Próxima → Assembly](../05-assembly/)
+[← A03 C](../A03-c/) · [↑ Track A](../README.md) · [Próxima → A05 Assembly](../A05-assembly/)
 
 ---
 
@@ -1881,4 +1881,4 @@ Esse é um dos melhores caminhos para realmente aprender a "conversar com a máq
 
 ---
 
-[← C](../03-c/) · [↑ Índice](../README.md) · [Próxima → Assembly](../05-assembly/)
+[← A03 C](../A03-c/) · [↑ Track A](../README.md) · [Próxima → A05 Assembly](../A05-assembly/)

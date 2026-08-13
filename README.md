@@ -1,253 +1,252 @@
 # Courses
 
-Repositório pessoal de **masterclasses, notas e exercícios**, organizado como uma trilha progressiva para compreender computação de ponta a ponta — da programação de alto nível ao hardware e, depois, a sistemas distribuídos e inteligência artificial.
+Repositório pessoal de **masterclasses, notas, exercícios e projetos de estudo**, organizado como um mapa de conhecimento em tracks independentes, mas conectados.
 
-A ideia central é estudar cada abstração junto da camada que existe abaixo dela:
+O objetivo não é acumular tecnologias isoladas. É construir um modelo mental no qual seja possível subir e descer pelas camadas:
 
 ```text
-Matemática
+matemática
     ↓
-Algoritmos
+algoritmos e modelos
     ↓
-Python / C++
+linguagens
     ↓
-C
+runtime / compilador
     ↓
-Assembly
+sistema operacional
     ↓
-ISA
-    ↓
-Arquitetura de Computadores
-    ↓
-Sistema Operacional
-    ↓
-Linux / Containers / Redes
-    ↓
+hardware
+```
+
+e também atravessar domínios:
+
+```text
+matemática ─────────────┐
+                       ▼
+neurociência ───► representação ───► inteligência
+                       ▲
+                       │
+computação ────────────┘
+```
+
+---
+
+# Tracks
+
+| Track | Área | Estado |
+|---|---|:---:|
+| [A](classes/track-a-programming-systems/) | Programming & Systems | 🟡 ativo |
+| [B](classes/track-b-mathematics/) | Mathematics & Theoretical Foundations | 🧭 roadmap |
+| [C](classes/track-c-scientific-computing-ml/) | Scientific Computing & Machine Learning | 🧭 roadmap |
+| [D](classes/track-d-neuroscience-neurocomputation/) | Neuroscience & Neurocomputation | 🧭 roadmap |
+| [E](classes/track-e-infrastructure-distributed/) | Infrastructure & Distributed Systems | 🧭 roadmap |
+| [F](classes/track-f-ai-cognitive-systems/) | AI & Cognitive Systems | 🧭 roadmap |
+
+**[Abrir mapa completo das masterclasses →](classes/README.md)**
+
+---
+
+# Por que tracks?
+
+Uma sequência linear funciona bem no início:
+
+```text
+Python → C → Assembly → Arquitetura
+```
+
+mas deixa de representar bem o aprendizado quando entram tópicos como:
+
+```text
+Topologia
+Neurocomputação
 Sistemas Distribuídos
-    ↓
-Machine Learning / GPU
-    ↓
-Sistemas de IA
+GPU
+Teoria da Informação
+Sistemas Cognitivos
 ```
 
-> **Pergunta-guia:** qual abstração está sendo construída nesta camada, quanto ela custa e o que realmente acontece abaixo dela?
+Esses assuntos possuem **dependências cruzadas**, não uma única ordem.
+
+Por isso cada aula recebe agora um identificador estável:
+
+```text
+A05  Assembly
+B06  Topologia
+D07  Neural Manifolds
+E05  Sistemas Distribuídos
+F05  Arquiteturas Cognitivas
+```
+
+Adicionar uma aula ao Track B não altera a numeração do Track A.
 
 ---
 
-## Navegação rápida
+# Mapa de alto nível
 
-| # | Masterclass | Status | Camada |
-|---:|---|:---:|---|
-| 01 | [Python](classes/01-python/) | ✅ | Linguagem de alto nível |
-| 02 | [C++ e Programação Orientada a Objetos](classes/02-cpp-poo/) | ✅ | Linguagem / abstrações |
-| 03 | [Linguagem C](classes/03-c/) | 🟡 | Baixo nível / memória |
-| 04 | [Algoritmos e Estruturas de Dados em C](classes/04-algoritmos-estruturas-dados/) | 🟡 | Algoritmos / estruturas |
-| 05 | [Assembly x86-64](classes/05-assembly/) | ✅ | ISA / baixo nível |
-| 06 | [Arquitetura de Computadores](classes/06-arquitetura-computadores/) | ✅ | Hardware / microarquitetura |
-| 07 | Memória e Representação de Dados | ⬜ | Memória |
-| 08 | Sistemas Operacionais | ⬜ | Kernel / processos |
-| 09 | Linux Systems | ⬜ | Sistemas |
-| 10 | Containers e Docker Internals | ⬜ | Isolamento / runtime |
-| 11 | Redes de Computadores | ⬜ | Comunicação |
-| 12 | Concorrência e Paralelismo | ⬜ | Execução |
-| 13 | Compiladores | ⬜ | Linguagens / toolchain |
-| 14 | Performance Engineering | ⬜ | Otimização |
-| 15 | Bancos de Dados por Dentro | ⬜ | Persistência |
-| 16 | Sistemas Distribuídos | ⬜ | Distribuição |
-| 17 | Segurança de Sistemas | ⬜ | Segurança |
-| 18 | Criptografia para Programadores | ⬜ | Segurança |
-| 19 | Álgebra Linear Computacional | ⬜ | Computação científica |
-| 20 | Cálculo Numérico | ⬜ | Computação científica |
-| 21 | Redes Neurais do Zero | ⬜ | Machine Learning |
-| 22 | GPU Computing / CUDA | ⬜ | Computação paralela |
-| 23 | Runtimes e Máquinas Virtuais | ⬜ | Linguagens / runtime |
-| 24 | C++ para Systems Programming | ⬜ | Sistemas / performance |
-| 25 | Arquitetura de Sistemas de IA | ⬜ | IA / infraestrutura |
-| 26 | Teoria da Computação | ⬜ | Fundamentos teóricos |
+```text
+                    ┌─────────────────────────┐
+                    │ B — Mathematics         │
+                    └────────────┬────────────┘
+                                 │
+                  ┌──────────────┼──────────────┐
+                  ▼              ▼              ▼
+       ┌────────────────┐ ┌──────────────┐ ┌────────────────┐
+       │ A — Programming│ │ C — Sci/ML   │ │ D — Neuro     │
+       │     & Systems  │ │              │ │ computation    │
+       └────────┬───────┘ └──────┬───────┘ └────────┬───────┘
+                │                │                  │
+                └────────┬───────┴──────────┬───────┘
+                         ▼                  ▼
+              ┌──────────────────┐   ┌──────────────────┐
+              │ E — Infra &      │   │ F — AI &        │
+              │ Distributed      │──►│ Cognitive       │
+              └──────────────────┘   └──────────────────┘
+```
 
-**Legenda:** ✅ disponível · 🟡 em estudo/expansão · ⬜ planejada
-
-Para objetivos, pré-requisitos e a sequência detalhada, veja **[classes/README.md](classes/README.md)**.
+O grafo é uma orientação, não uma barreira. Cursos podem ser estudados em paralelo quando os pré-requisitos necessários já estiverem dominados.
 
 ---
 
-## Trilhas
-
-### Como a máquina funciona
-
-```text
-C
-↓
-Assembly
-↓
-Machine Code / ISA
-↓
-Arquitetura de Computadores
-↓
-Memória
-↓
-Sistema Operacional
-```
-
-### Sistemas e infraestrutura
-
-```text
-Sistemas Operacionais
-↓
-Linux
-↓
-Containers
-↓
-Redes
-↓
-Concorrência
-↓
-Bancos de Dados
-↓
-Sistemas Distribuídos
-↓
-Segurança
-```
-
-### Machine Learning e IA
-
-```text
-Python
-↓
-Álgebra Linear Computacional
-↓
-Cálculo Numérico
-↓
-Redes Neurais do Zero
-↓
-GPU / CUDA
-↓
-Arquitetura de Sistemas de IA
-```
-
-As trilhas convergem. Um objetivo importante do repositório é conseguir seguir uma operação por várias camadas:
-
-```text
-modelo matemático
-↓
-algoritmo
-↓
-Python / C++
-↓
-runtime / bibliotecas nativas
-↓
-Assembly / ISA
-↓
-CPU ou GPU
-↓
-memória / I/O
-```
-
----
-
-## Estrutura
+# Estrutura
 
 ```text
 Courses/
 ├── README.md
 └── classes/
     ├── README.md
-    ├── 01-python/
+    │
+    ├── track-a-programming-systems/
     │   ├── README.md
-    │   └── exercises/
-    ├── 02-cpp-poo/
-    │   ├── README.md
-    │   └── exercises/
-    ├── 03-c/
+    │   ├── A01-python/
+    │   ├── A02-cpp-poo/
+    │   ├── A03-c/
+    │   ├── A04-algoritmos-estruturas-dados/
+    │   ├── A05-assembly/
+    │   └── A06-arquitetura-computadores/
+    │
+    ├── track-b-mathematics/
     │   └── README.md
-    ├── 04-algoritmos-estruturas-dados/
+    │
+    ├── track-c-scientific-computing-ml/
     │   └── README.md
-    ├── 05-assembly/
+    │
+    ├── track-d-neuroscience-neurocomputation/
     │   └── README.md
-    └── 06-arquitetura-computadores/
+    │
+    ├── track-e-infrastructure-distributed/
+    │   └── README.md
+    │
+    └── track-f-ai-cognitive-systems/
         └── README.md
 ```
 
-Quando necessário, cada curso pode crescer para:
+Cursos planejados aparecem nos READMEs dos tracks, mas **a pasta física só é criada quando a masterclass existir**.
+
+---
+
+# Estrutura de uma masterclass
+
+Comece simples:
 
 ```text
-<curso>/
-├── README.md       # masterclass principal
-├── exercises/      # exercícios
-├── examples/       # exemplos executáveis
-├── projects/       # mini-projetos
-├── notes/          # notas complementares
-└── assets/         # diagramas e imagens
+A05-assembly/
+└── README.md
 ```
 
-Não é necessário criar diretórios vazios antecipadamente.
+Expanda quando houver conteúdo:
+
+```text
+A05-assembly/
+├── README.md
+├── exercises/
+├── examples/
+├── projects/
+├── notes/
+└── assets/
+```
+
+Não criar diretórios vazios por antecipação.
 
 ---
 
-## Convenções
+# Convenção de IDs
 
-- `README.md` é sempre a entrada principal de uma masterclass.
-- Pastas usam prefixo numérico para preservar a ordem da trilha.
-- Exemplos executáveis devem ficar fora do texto principal quando crescerem demais.
-- Uma aula pode ser estudada fora da ordem, mas seus pré-requisitos devem permanecer claros.
-- Conteúdo factual dependente de versão deve indicar a versão relevante quando necessário.
-- O foco é **entender conceitos**, não decorar APIs ou comandos.
+```text
+Axx  Programming & Systems
+Bxx  Mathematics & Theoretical Foundations
+Cxx  Scientific Computing & Machine Learning
+Dxx  Neuroscience & Neurocomputation
+Exx  Infrastructure & Distributed Systems
+Fxx  AI & Cognitive Systems
+```
+
+Exemplos:
+
+```text
+A06-arquitetura-computadores
+B06-topologia
+C05-redes-neurais-do-zero
+D07-neural-manifolds
+E02-containers-docker
+F05-arquiteturas-cognitivas
+```
+
+O ID é parte estável do curso.
 
 ---
 
-## Método de estudo
+# Método de estudo
 
 Para cada masterclass:
 
 1. entender o modelo mental;
-2. reproduzir exemplos;
-3. modificar os exemplos e observar o efeito;
-4. descer uma camada de abstração;
-5. usar ferramentas reais de inspeção;
-6. implementar pelo menos um pequeno projeto;
-7. registrar dúvidas e descobertas;
-8. voltar ao conteúdo após experiência prática.
+2. reproduzir os exemplos;
+3. alterar os exemplos e observar o comportamento;
+4. conectar o conteúdo aos seus pré-requisitos;
+5. descer pelo menos uma camada de abstração;
+6. usar ferramentas reais de inspeção quando aplicável;
+7. implementar ao menos um exercício ou mini-projeto;
+8. registrar dúvidas e descobertas;
+9. voltar à aula depois da prática.
 
-Exemplos de perguntas úteis:
+Perguntas recorrentes:
 
 ```text
-Onde esse dado está?
+Que objeto matemático está sendo usado?
 
-Quem possui essa memória?
+Onde esse dado existe?
 
-Que representação binária está sendo usada?
+Como ele é representado?
 
-Que instruções isso pode gerar?
+Que transformação está sendo aplicada?
 
-Isso toca o kernel?
+Que invariantes são preservados?
 
-Isso copia dados?
+Qual é o custo computacional?
 
-Qual cache é relevante?
+Que abstração está escondendo a implementação?
 
-Isso é compute-bound ou memory-bound?
-
-Essa abstração é necessária nesta camada?
+O que existe imediatamente abaixo desta camada?
 ```
 
 ---
 
-## Objetivo
+# Princípio do repositório
 
-A meta não é memorizar todas as tecnologias.
+A meta não é saber o nome de todas as ferramentas.
 
-É construir capacidade para olhar um sistema e identificar:
+É conseguir olhar para um problema e identificar:
 
 ```text
-em qual camada o problema existe
+qual estrutura está envolvida
 ↓
-qual abstração está sendo usada
+em qual camada ela existe
 ↓
-o que ela esconde
+qual abstração a representa
 ↓
-qual custo ela introduz
+qual implementação a realiza
 ↓
-como inspecionar o comportamento real
+qual custo e quais limitações ela possui
 ```
 
-Programação deixa então de ser uma coleção de linguagens e frameworks e passa a ser a compreensão de um único sistema em diferentes níveis de abstração.
+O repositório é um **mapa vivo de formação**, não uma checklist que precisa ser concluída estritamente da esquerda para a direita.
