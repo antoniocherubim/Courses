@@ -1,164 +1,97 @@
-# Masterclasses — Knowledge Map
+# Classes — Knowledge Map
 
-[← README principal](../README.md)
+[← Courses](../README.md) · [Mapas](../maps/) · [Roadmap](../roadmap/)
 
-Este diretório é o índice central do repositório. As aulas são organizadas em **tracks** para evitar que a adição de novos assuntos destrua uma sequência linear já estabelecida.
+Cada track representa uma área relativamente estável. As dependências entre eles são explícitas, mas não existe uma única sequência obrigatória.
 
 ---
 
 ## Tracks
 
-### [Track A — Programming & Systems](track-a-programming-systems/)
+### [A — Programming & Systems](track-a-programming-systems/)
 
 ```text
-linguagens
-↓
-baixo nível
-↓
-Assembly / ISA
-↓
-CPU
-↓
-memória
-↓
-SO
-↓
-runtimes / compiladores
-↓
-performance
+linguagens → C → Assembly → arquitetura → memória → SO → runtimes / performance
 ```
 
-### [Track B — Mathematics & Theoretical Foundations](track-b-mathematics/)
+### [B — Mathematics & Theoretical Foundations](track-b-mathematics/)
 
 ```text
-lógica / discreta
-↓
-álgebra / cálculo / probabilidade
-↓
-EDOs
-↓
-topologia / geometria
-↓
-sistemas dinâmicos
-↓
-informação / otimização
-↓
-teoria da computação
+lógica → álgebra / cálculo / probabilidade → EDOs → topologia / geometria → dinâmica / informação
 ```
 
-### [Track C — Scientific Computing & Machine Learning](track-c-scientific-computing-ml/)
+### [C — Scientific Computing & Machine Learning](track-c-scientific-computing-ml/)
 
 ```text
-computação numérica
-↓
-álgebra linear computacional
-↓
-computação científica
-↓
-ML
-↓
-redes neurais
-↓
-GPU
+métodos numéricos → álgebra linear computacional → ML → redes neurais → GPU
 ```
 
-### [Track D — Neuroscience & Neurocomputation](track-d-neuroscience-neurocomputation/)
+### [D — Neuroscience & Neurocomputation](track-d-neuroscience-neurocomputation/)
 
 ```text
-neurônio biológico
-↓
-modelos matemáticos
-↓
-código neural
-↓
-dinâmica populacional
-↓
-plasticidade
-↓
-atratores
-↓
-manifolds / topologia
-↓
-computação neural
+neurônio → biofísica → populações → plasticidade → dinâmica → manifolds / topologia → memória
 ```
 
-### [Track E — Infrastructure & Distributed Systems](track-e-infrastructure-distributed/)
+### [E — Infrastructure & Distributed Systems](track-e-infrastructure-distributed/)
 
 ```text
-rede
-↓
-containers
-↓
-infraestrutura
-↓
-bancos de dados
-↓
-sistemas distribuídos
-↓
-orquestração
-↓
-segurança / observabilidade
+redes → containers → infraestrutura → bancos → distribuídos → reliability / security
 ```
 
-### [Track F — AI & Cognitive Systems](track-f-ai-cognitive-systems/)
+### [F — AI & Cognitive Systems](track-f-ai-cognitive-systems/)
 
 ```text
-model serving
-↓
-retrieval / memória
-↓
-agentes
-↓
-arquiteturas cognitivas
-↓
-multimodalidade
-↓
-avaliação / safety
-↓
-sistemas distribuídos de IA
+inference → retrieval / memória → agents → arquiteturas cognitivas → multimodalidade → distributed AI
+```
+
+### [G — Physics](track-g-physics/)
+
+```text
+mecânica → ondas → termodinâmica → eletromagnetismo → estatística → relatividade / quântica
+```
+
+### [H — Chemistry](track-h-chemistry/)
+
+```text
+estrutura atômica → ligações → termodinâmica / equilíbrio → cinética → orgânica / físico-química → bioquímica
+```
+
+### [I — Biology & Biotechnology](track-i-biology-biotechnology/)
+
+```text
+célula → molecular / genética → bioquímica → fisiologia → evolução / ecologia → biotecnologia
 ```
 
 ---
 
-# Dependências cruzadas principais
+## Conexões principais
 
 ```text
-A03 C ──► A05 Assembly ──► A06 Arquitetura
-                              │
-                              ├──► A07 Memória
-                              └──► C07 GPU
+B — Mathematics ─────────────► todos os tracks quantitativos
 
-B02 Álgebra Linear ──────────► C02 Álgebra Linear Computacional
-B03 Cálculo ─────────────────► C01 Computação Numérica
-B04 Probabilidade ───────────► C04/C05 ML
-
-B05 EDOs ──────────────┐
-B06 Topologia ─────────┼──► D06/D07/D08 Neurodinâmica e manifolds
-B07 Topologia Algébrica┤
-B08 Geom. Diferencial ─┤
-B09 Sist. Dinâmicos ───┘
-
-A08 SO + A09 Linux ──────────► E02 Containers
-A08 SO + E01 Redes ──────────► E03 Infraestrutura
-E01 + E04 + A10 ─────────────► E05 Distribuídos
-
-C04/C05/C07 ─────────────────► F01/F02 Sistemas de IA
-E05 ─────────────────────────► F08 IA distribuída
-D03/D06/D07 ─────────────────► F05 Arquiteturas cognitivas
+A — Programming ─────────────► C, E, F
+C — Scientific Computing ────► D, F, G, H, I
+G — Physics ─────────────────► H
+H — Chemistry ───────────────► I
+I — Biology ─────────────────► D
+D — Neurocomputation ────────► F
+E — Infrastructure ──────────► F
 ```
+
+Isso é apenas o esqueleto disciplinar. Conceitos que atravessam várias áreas ficam em **[maps/](../maps/)**.
 
 ---
 
-# Estado atual da base prática
+## Estado da base prática
 
 | ID | Curso | Status |
 |---|---|:---:|
-| A01 | Python | ✅ existente |
-| A02 | C++ e POO | ✅ existente |
-| A03 | C | 🟡 existente / em estudo |
-| A04 | Algoritmos e Estruturas de Dados em C | 🟡 existente / em estudo |
-| A05 | Assembly x86-64 | ✅ existente |
-| A06 | Arquitetura de Computadores | ✅ existente |
-| demais | roadmap | ⬜ planejado |
+| A01 | Python | ✅ |
+| A02 | C++ e POO | ✅ |
+| A03 | C | 🟡 |
+| A04 | Algoritmos e Estruturas de Dados | 🟡 |
+| A05 | Assembly x86-64 | ✅ |
+| A06 | Arquitetura de Computadores | ✅ |
+| demais | roadmap | 🧭 / ⬜ |
 
-Os IDs acima substituem a numeração global antiga `01–26`.
+Os IDs são estáveis dentro de cada track. Adicionar uma nova aula de física não renumera computação, neurociência ou matemática.

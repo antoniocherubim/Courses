@@ -2,7 +2,7 @@
 
 > Um caderno de estudo e consulta para quem quer entender o que acontece entre C/C++, o sistema operacional e a CPU.
 
-[← A04 Algoritmos e Estruturas](../A04-algoritmos-estruturas-dados/) · [↑ Track A](../README.md) · [Próxima → A06 Arquitetura](../A06-arquitetura-computadores/)
+[← A04 Algoritmos](../A04-algoritmos-estruturas-dados/) · [↑ Track A](../README.md) · [Próxima → A06 Arquitetura](../A06-arquitetura-computadores/)
 
 ---
 
@@ -3333,4 +3333,4 @@ Se você consegue responder essas quatro perguntas, está realmente aprendendo A
 
 ---
 
-[← A04 Algoritmos e Estruturas](../A04-algoritmos-estruturas-dados/) · [↑ Track A](../README.md) · [Próxima → A06 Arquitetura](../A06-arquitetura-computadores/)
+[← A04 Algoritmos](../A04-algoritmos-estruturas-dados/) · [↑ Track A](../README.md) · [Próxima → A06 Arquitetura](../A06-arquitetura-computadores/)

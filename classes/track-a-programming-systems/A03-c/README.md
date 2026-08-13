@@ -4,7 +4,7 @@
 >
 > Objetivo: entender não apenas *como escrever código em C*, mas também **o que o computador está fazendo** e como os dados são representados e manipulados na memória.
 
-[← A02 C++ e POO](../A02-cpp-poo/) · [↑ Track A](../README.md) · [Próxima → A04 Algoritmos e Estruturas](../A04-algoritmos-estruturas-dados/)
+[← A02 C++ e POO](../A02-cpp-poo/) · [↑ Track A](../README.md) · [Próxima → A04 Algoritmos](../A04-algoritmos-estruturas-dados/)
 
 ---
 
@@ -1832,4 +1832,4 @@ valgrind --leak-check=full ./programa
 
 ---
 
-[← A02 C++ e POO](../A02-cpp-poo/) · [↑ Track A](../README.md) · [Próxima → A04 Algoritmos e Estruturas](../A04-algoritmos-estruturas-dados/)
+[← A02 C++ e POO](../A02-cpp-poo/) · [↑ Track A](../README.md) · [Próxima → A04 Algoritmos](../A04-algoritmos-estruturas-dados/)
