@@ -33,3 +33,19 @@ graph LR
 ```
 
 O grafo representa relações explicativas e caminhos de estudo úteis, não a redução completa de uma disciplina à outra.
+
+## Ciências naturais e neurocomputação
+
+```mermaid
+graph LR
+    G[Physics] --> H[Chemistry]
+    H --> I[Biology & Biotechnology]
+    I --> D[Neuroscience & Neurocomputation]
+    B[Mathematics] --> G
+    B --> I
+    C[Scientific Computing & ML] --> I
+    C --> D
+    D --> F[AI & Cognitive Systems]
+```
+
+As setas representam dependências, métodos ou conexões explicativas úteis; não implicam redução completa de uma área à anterior.

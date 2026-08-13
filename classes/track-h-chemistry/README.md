@@ -4,16 +4,18 @@
 
 > Como estrutura eletrônica, energia e interação molecular produzem matéria e transformação química.
 
+> Há formação universitária prévia em Química Geral, Analítica, Orgânica, Físico-Química e Bioquímica. Os demais tópicos permanecem no roadmap conforme necessidade de aprofundamento.
+
 ## Currículo
 
 | ID | Masterclass | Status |
 |---|---|:---:|
 | H01 | Química Geral e Estrutura Atômica | 🧭 |
-| H02 | Ligações Químicas e Estrutura Molecular | 🧭 |
+| H02 | Ligações e Estrutura Molecular | 🧭 |
 | H03 | Termodinâmica Química e Equilíbrio | 🧭 |
 | H04 | Cinética Química | 🧭 |
 | H05 | Química Orgânica | 🧭 |
-| H06 | Química Inorgânica | 🧭 |
+| H06 | Química Inorgânica | ⬜ |
 | H07 | Físico-Química | 🧭 |
 | H08 | Química Analítica e Instrumentação | 🧭 |
 | H09 | Bioquímica | 🧭 |

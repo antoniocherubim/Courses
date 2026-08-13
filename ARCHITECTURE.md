@@ -12,7 +12,7 @@ Exemplos:
 
 ```text
 A05 Assembly
-B06 Topologia
+B08 Topologia
 D03 Código Neural
 G03 Termodinâmica
 ```

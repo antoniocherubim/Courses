@@ -24,6 +24,8 @@ Os mapas devem permanecer sintéticos e apontar para masterclasses, notas e proj
 | Emergência | 🧭 | Quando uma descrição coletiva se torna útil? |
 | Incerteza e Inferência | 🧭 | Como atualizar modelos com informação incompleta? |
 | Aprendizado e Adaptação | 🧭 | Como feedback altera o sistema? |
+| Regulação, Feedback e Homeostase | 🧭 | Como sistemas mantêm, corrigem ou transformam seu estado a partir de feedback? |
+| Evidência, Modelos e Inferência | 🧭 | O que é observado, inferido, modelado ou apenas hipótese? |
 
 ---
 
@@ -41,7 +43,7 @@ execução
 hardware
 ```
 
-Conecta principalmente A, B01/B12, C, F e I10.
+Conecta principalmente A, B01/B16, C, F e I15.
 
 ---
 
@@ -62,7 +64,7 @@ representação
 Aparece em:
 
 - bits, armazenamento e memória;
-- B10 — Teoria da Informação;
+- B13 — Teoria da Informação;
 - E01 — redes;
 - I02/I03 — biologia molecular e genética;
 - D03 — código neural;
@@ -87,10 +89,10 @@ atratores / transições
 
 Aparece em:
 
-- B05/B09 — EDOs e sistemas dinâmicos;
+- B06/B11 — EDOs e sistemas dinâmicos;
 - G01/G02/G03 — física;
 - H04 — cinética química;
-- I05/I07 — fisiologia e ecologia;
+- I06/I13 — fisiologia e ecologia;
 - D05/D06 — neurodinâmica;
 - C05/C06 — treinamento e otimização.
 
@@ -108,7 +110,7 @@ invariantes
 espaços de estados / representações
 ```
 
-Aparece em B06/B07/B08, G08, C02/C04 e D07/D08.
+Aparece em B08/B09/B10, G08, C02/C04 e D07/D08.
 
 ---
 
@@ -128,7 +130,7 @@ Aparece em:
 - E04 — persistência;
 - D04/D10 — plasticidade e engramas;
 - F03/F05 — memória em sistemas de IA;
-- B09 — sistemas com estado e trajetória.
+- B11 — sistemas com estado e trajetória.
 
 ---
 
@@ -193,6 +195,40 @@ mudança adaptativa
 ```
 
 Aparece em evolução biológica, plasticidade neural, otimização, machine learning e sistemas adaptativos.
+
+---
+
+## 10. Regulação, Feedback e Homeostase
+
+> **Como sistemas mantêm, corrigem ou transformam seu estado a partir de feedback?**
+
+```text
+engenharia / controle
+↓
+expressão gênica
+↓
+metabolismo
+↓
+fisiologia
+↓
+ecologia
+↓
+neurodinâmica
+↓
+aprendizado
+↓
+sistemas de IA
+```
+
+Este mapa permanece 🧭 a externalizar; não há arquivo separado ainda.
+
+---
+
+## 11. Evidência, Modelos e Inferência
+
+> **O que é observado, o que é inferido, o que é modelado e o que é apenas hipótese?**
+
+Este mapa será especialmente importante para física, química, biologia, neurociência, machine learning e sistemas cognitivos. Permanece 🧭 a externalizar até ganhar conteúdo próprio.
 
 ---
 

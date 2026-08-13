@@ -1,6 +1,6 @@
 # Roadmap — Personal Knowledge Roadmap
 
-[← Courses](../README.md) · [Classes](../classes/) · [Maps](../maps/) · [NOW](NOW.md)
+[← Courses](../README.md) · [Classes](../classes/) · [Maps](../maps/) · [Baseline](BASELINE.md) · [NOW](NOW.md)
 
 Este roadmap não é uma agenda rígida e não representa uma tentativa de estudar tudo simultaneamente.
 
@@ -17,13 +17,25 @@ Ele mantém uma **visão de longo prazo** enquanto o trabalho cotidiano permanec
 ⬜ planejado        → conteúdo futuro ainda não estruturado
 ```
 
-> O status mede o estado de externalização do conhecimento no repositório, não certifica domínio completo da matéria.
+> Os status descrevem o estado do conhecimento **no repositório**, não uma certificação de domínio pessoal.
 
 ---
 
 # Frente atual
 
 A visão operacional e mutável fica em **[NOW — Fronteira atual](NOW.md)**. Este arquivo preserva a direção de longo prazo e as convergências entre áreas.
+
+## Baseline
+
+O roadmap distingue conhecimento futuro de conhecimento já estudado, mas ainda não externalizado.
+
+**[Ver conhecimento prévio →](BASELINE.md)**
+
+```text
+BASELINE → de onde o percurso parte
+ROADMAP  → onde ele pode chegar
+NOW      → onde está a atenção atual
+```
 
 ---
 
@@ -32,8 +44,8 @@ A visão operacional e mutável fica em **[NOW — Fronteira atual](NOW.md)**. E
 Alguns tópicos já possuem familiaridade ou estudo prévio, mas ainda não foram organizados como masterclasses:
 
 ```text
-B06 Topologia
-B09 Sistemas Dinâmicos
+B08 Topologia
+B11 Sistemas Dinâmicos
 
 D01 Neurociência Computacional
 D03 Código Neural / populações
@@ -59,14 +71,14 @@ A12 Performance
 Em paralelo, a matemática pode ser estruturada conforme necessidade:
 
 ```text
-B02 Álgebra Linear
-B03 Cálculo Multivariável
+B02 Álgebra Linear e Geometria Analítica
+B03 Cálculo Diferencial e Multivariável
 B04 Probabilidade
-B05 EDOs
-B06 Topologia
-B08 Geometria Diferencial
-B09 Sistemas Dinâmicos
-B10 Teoria da Informação
+B06 EDOs
+B08 Topologia
+B10 Geometria Diferencial
+B11 Sistemas Dinâmicos
+B13 Teoria da Informação
 ```
 
 ---
@@ -91,11 +103,11 @@ O objetivo inicial nesses tracks não é necessariamente estudar tudo do zero. �
 # Convergência neurocomputacional
 
 ```text
-B05 EDOs
-B06 Topologia
-B08 Geometria
-B09 Sistemas Dinâmicos
-B10 Informação
+B06 EDOs
+B08 Topologia
+B10 Geometria
+B11 Sistemas Dinâmicos
+B13 Informação
         │
         ▼
 D — Neuroscience & Neurocomputation

@@ -10,16 +10,16 @@ Este track deve manter um recorte **computacional e quantitativo**. O foco não 
 
 | ID | Masterclass | Status | Pré-requisitos recomendados |
 |---|---|:---:|---|
-| D01 | Fundamentos de Neurociência Computacional | 🧭 | B02–B05 |
-| D02 | Modelos Biofísicos de Neurônios | ⬜ | D01, B05 |
-| D03 | Código Neural e Dinâmica Populacional | 🧭 | D01, B02/B04 |
-| D04 | Sinapses, Plasticidade e Aprendizado | ⬜ | D01–D03 |
-| D05 | Redes Recorrentes e Redes de Atratores | 🧭 | D03, B09 |
-| D06 | Sistemas Dinâmicos Neurais | 🧭 | B05/B09, D02/D03 |
-| D07 | Neural Manifolds e Geometria das Representações | 🧭 | B02/B08, D03/D06 |
-| D08 | Neurociência Topológica e TDA | ⬜ | B06/B07, D03/D07 |
+| D01 | Fundamentos de Neurociência Computacional | 🧭 | I01/I05/I06, B02–B06 |
+| D02 | Modelos Biofísicos de Neurônios | ⬜ | D01, I01/I06, B06 |
+| D03 | Código Neural e Dinâmica Populacional | 🧭 | D01, B02/B04/B13 |
+| D04 | Sinapses, Plasticidade e Aprendizado | ⬜ | D01–D03, I02 |
+| D05 | Redes Recorrentes e Redes de Atratores | 🧭 | D03, B11 |
+| D06 | Sistemas Dinâmicos Neurais | 🧭 | B06/B11, D02/D03 |
+| D07 | Neural Manifolds e Geometria das Representações | 🧭 | B02/B10, D03/D06 |
+| D08 | Neurociência Topológica e TDA | ⬜ | B08/B09, D03/D07 |
 | D09 | Spiking Neural Networks e Computação Neuromórfica | ⬜ | D02–D04 |
-| D10 | Memória, Engramas e Representações Distribuídas | 🧭 | D03–D06 |
+| D10 | Memória, Engramas e Representações Distribuídas | 🧭 | D03–D06, I02, B13 |
 
 ## Caminho principal
 
@@ -44,11 +44,15 @@ manifolds / topologia
 ## Ponte matemática
 
 ```text
-B05 EDOs ──────────────► D02/D06
-B09 Sistemas Dinâmicos ► D05/D06
-B08 Geometria ─────────► D07
-B06/B07 Topologia ─────► D08
-B10 Informação ────────► D03/D10
+I01 Biologia Celular ──────────────► D01/D02
+I02 Biologia Molecular ────────────► D04/D10
+I05 Desenvolvimento/Anatomia ──────► D01
+I06 Fisiologia ────────────────────► D01/D02
+B06 EDOs ──────────────────────────► D02/D06
+B11 Sistemas Dinâmicos ────────────► D05/D06
+B10 Geometria Diferencial ─────────► D07
+B08/B09 Topologia/TDA ─────────────► D08
+B13 Informação ────────────────────► D03/D10
 ```
 
 ## Filosofia

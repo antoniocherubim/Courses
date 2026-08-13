@@ -71,11 +71,13 @@ célula → molecular / genética → bioquímica → fisiologia → evolução 
 ```text
 B — Mathematics ─────────────► todos os tracks quantitativos
 
+B02/B03/B04 ─────────────────► C — Scientific Computing
+B06/B10/B11/B13 ─────────────► D — Neurocomputation
+
 A — Programming ─────────────► C, E, F
-C — Scientific Computing ────► D, F, G, H, I
-G — Physics ─────────────────► H
-H — Chemistry ───────────────► I
-I — Biology ─────────────────► D
+G — Physics ─► H09 Bioquímica ─► I04/I06
+I01/I02/I05/I06 ─────────────► D
+I15 Bioinformática ──────────► C, F
 D — Neurocomputation ────────► F
 E — Infrastructure ──────────► F
 ```

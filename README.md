@@ -2,7 +2,7 @@
 
 Base multidisciplinar de conhecimento: masterclasses, exercícios, projetos, mapas conceituais e trilhas de estudo conectando computação, matemática, IA, neurociência e ciências naturais.
 
-> **Conhecimento organizado, conectado e compartilhado. Mesmos padrões, repetidos em diferentes escalas.**
+> **Conhecimento organizado, conectado e compartilhado.**
 
 ---
 
@@ -87,6 +87,11 @@ O roadmap registra:
 
 **[Fronteira atual →](roadmap/NOW.md)**
 
+O roadmap também contém:
+
+- [`BASELINE`](roadmap/BASELINE.md) — conhecimento prévio;
+- [`NOW`](roadmap/NOW.md) — fronteira atual.
+
 ---
 
 ## Estado atual
@@ -111,7 +116,7 @@ Legenda:
 ⬜ planejado        → conteúdo futuro ainda não estruturado
 ```
 
-> O status mede o estado de externalização do conhecimento no repositório, não certifica domínio completo da matéria.
+> Os status descrevem o estado do conhecimento **no repositório**, não uma certificação de domínio pessoal.
 
 ---
 
@@ -142,6 +147,7 @@ Courses/
 │
 └── roadmap/
     ├── README.md
+    ├── BASELINE.md
     └── NOW.md
 ```
 
