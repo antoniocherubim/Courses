@@ -14,10 +14,10 @@ int main(){
         tentativa=rand()%(maximo-minimo+1)+minimo;
         cout << "Tentativa: " << tentativa << endl;
         if(tentativa>aleatorio){
-            cout << "O numero é maior que a tentativa" << endl;
+            cout << "O numero é menor que a tentativa" << endl;
             maximo = tentativa - 1;
         }else if(tentativa<aleatorio){
-            cout << "O numero é menor que a tentativa" << endl;
+            cout << "O numero é maior que a tentativa" << endl;
             minimo = tentativa + 1;
         }else{
             cout << "Parabens, voce acertou! O número era " << aleatorio << endl;
