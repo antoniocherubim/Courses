@@ -6,7 +6,7 @@
 
 ## Currículo
 
-| ID | Masterclass | Estado inicial |
+| ID | Class | Estado inicial |
 |---|---|:---:|
 | I01 | Biologia Celular | 🧭 |
 | I02 | Biologia Molecular | 🧭 |

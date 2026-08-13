@@ -10,7 +10,7 @@ Maps respondem:
 
 > **Onde o mesmo padrão reaparece em áreas diferentes?**
 
-Os mapas devem permanecer sintéticos e apontar para masterclasses, notas e projetos. Não substituem cursos completos.
+Os mapas devem permanecer sintéticos e apontar para classes, notas e projetos. Não substituem cursos completos.
 
 ## Índice
 

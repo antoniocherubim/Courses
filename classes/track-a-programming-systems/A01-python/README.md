@@ -1,4 +1,4 @@
-# Python Masterclass — Caderno de Referência
+# Python Class — Caderno de Referência
 
 > Um guia de consulta de **Python moderno** para quem já possui base na linguagem.
 >

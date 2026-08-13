@@ -1,14 +1,14 @@
-# Python Masterclass — Lista de Exercícios de Revisão
+# Python Class — Lista de Exercícios de Revisão
 
 **Total: 545 exercícios.**
 
-> Banco de exercícios para revisar o conteúdo de `python_masterclass.md`.
+> Banco de exercícios para revisar o conteúdo de `python_class.md`.
 >
 > A proposta não é ensinar Python do zero, mas verificar se os conceitos continuam disponíveis na memória e se você consegue aplicá-los sem consultar documentação.
 
 ## Como usar este caderno
 
-Faça uma primeira tentativa **sem consultar a masterclass**. Marque cada exercício conforme o nível de segurança da resposta:
+Faça uma primeira tentativa **sem consultar a class**. Marque cada exercício conforme o nível de segurança da resposta:
 
 - `0` — não sei / não lembro;
 - `1` — lembro parcialmente ou preciso testar/consultar;
@@ -581,7 +581,7 @@ Quando um exercício pedir código, prefira um arquivo pequeno e executável. Pa
 
 # 39. Dunder methods e protocolos — revisão concentrada
 
-Sem consultar o apêndice da masterclass, responda quais métodos especiais participam de cada comportamento e implemente alguns deles em tipos pequenos.
+Sem consultar o apêndice da class, responda quais métodos especiais participam de cada comportamento e implemente alguns deles em tipos pequenos.
 
 - [ ] **EX-440** **[C]** Construção/inicialização de instâncias: diferencie `__new__` e `__init__`.
 - [ ] **EX-441** **[C]** Representação textual: diferencie `__repr__`, `__str__` e `__format__`.
@@ -712,7 +712,7 @@ Some sua pontuação (`0`, `1` ou `2`) dentro de cada seção em vez de olhar ap
 - **90–100% dos pontos:** domínio forte; consulte o material principalmente para detalhes de API.
 - **75–89%:** boa retenção; revise os exercícios marcados com `0` e `1`.
 - **50–74%:** conhecimento utilizável, mas com áreas que provavelmente exigem consulta frequente.
-- **Abaixo de 50%:** vale reler a seção correspondente da masterclass e repetir apenas aquele bloco.
+- **Abaixo de 50%:** vale reler a seção correspondente da class e repetir apenas aquele bloco.
 
 Um exercício marcado como `2` deveria significar que você consegue **explicar o porquê**, não apenas produzir algo que “funciona”. Para os desafios integradores, dê mais peso à justificativa de trade-offs do que à quantidade de código.
 
@@ -721,7 +721,7 @@ Um exercício marcado como `2` deveria significar que você consegue **explicar 
 Depois da primeira revisão:
 
 1. filtre somente exercícios com nota `0`;
-2. releia as seções correspondentes da masterclass;
+2. releia as seções correspondentes da class;
 3. resolva-os novamente sem consulta;
 4. uma semana depois, repita os exercícios que ficaram em `1`;
 5. use os desafios integradores como prova final de retenção e transferência.

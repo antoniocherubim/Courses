@@ -1,6 +1,6 @@
 # Courses
 
-Base multidisciplinar de conhecimento: masterclasses, exercícios, projetos, mapas conceituais e trilhas de estudo conectando computação, matemática, IA, neurociência e ciências naturais.
+Base multidisciplinar de conhecimento: classes, exercícios, projetos, mapas conceituais e trilhas de estudo conectando computação, matemática, IA, neurociência e ciências naturais.
 
 > **Conhecimento organizado, conectado e compartilhado.**
 
@@ -35,7 +35,7 @@ TRACKS
 | [H](classes/track-h-chemistry/) | Chemistry |
 | [I](classes/track-i-biology-biotechnology/) | Biology & Biotechnology |
 
-**[Ver todas as masterclasses e dependências →](classes/README.md)**
+**[Ver todas as classes e dependências →](classes/README.md)**
 
 ### 2. Maps — como relacionar
 
@@ -98,7 +98,7 @@ O roadmap também contém:
 
 A base prática está concentrada no Track A:
 
-| ID | Masterclass | Estado |
+| ID | Class | Estado |
 |---|---|:---:|
 | A01 | Python | 📘 |
 | A02 | C++ e POO | 📘 |
@@ -112,7 +112,7 @@ Legenda:
 ```text
 📘 estruturado      → existe material principal utilizável no repositório
 🟡 em estruturação → existe material, mas ainda está sendo ampliado/revisado
-🧭 a externalizar  → há familiaridade/estudo prévio, mas o conhecimento ainda não foi organizado como masterclass
+🧭 a externalizar  → há familiaridade/estudo prévio, mas o conhecimento ainda não foi organizado como class
 ⬜ planejado        → conteúdo futuro ainda não estruturado
 ```
 
@@ -151,7 +151,7 @@ Courses/
     └── NOW.md
 ```
 
-Uma masterclass física só deve existir quando houver conteúdo real:
+Uma class física só deve existir quando houver conteúdo real:
 
 ```text
 A05-assembly/

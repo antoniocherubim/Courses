@@ -1,4 +1,4 @@
-# Masterclass de C++ e Programação Orientada a Objetos
+# Class de C++ e Programação Orientada a Objetos
 
 > Guia de estudo, consulta e prática — do básico da linguagem ao C++ moderno e à Programação Orientada a Objetos.
 

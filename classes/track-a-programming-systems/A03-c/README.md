@@ -1,4 +1,4 @@
-# Masterclass — Linguagem C
+# Class — Linguagem C
 
 > Um caderno de estudo e consulta sobre a linguagem C.
 >

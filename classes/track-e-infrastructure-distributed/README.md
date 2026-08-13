@@ -6,7 +6,7 @@
 
 ## Currículo
 
-| ID | Masterclass | Status | Pré-requisitos |
+| ID | Class | Status | Pré-requisitos |
 |---|---|:---:|---|
 | E01 | Redes de Computadores | ⬜ | A08 recomendado |
 | E02 | Containers e Docker Internals | ⬜ | A08/A09 |

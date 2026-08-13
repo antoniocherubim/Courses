@@ -8,7 +8,7 @@ Este track deve manter um recorte **computacional e quantitativo**. O foco não 
 
 ## Currículo
 
-| ID | Masterclass | Status | Pré-requisitos recomendados |
+| ID | Class | Status | Pré-requisitos recomendados |
 |---|---|:---:|---|
 | D01 | Fundamentos de Neurociência Computacional | 🧭 | I01/I05/I06, B02–B06 |
 | D02 | Modelos Biofísicos de Neurônios | ⬜ | D01, I01/I06, B06 |

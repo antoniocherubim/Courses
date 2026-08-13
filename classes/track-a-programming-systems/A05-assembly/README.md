@@ -1,4 +1,4 @@
-# Masterclass de Assembly — da linguagem de máquina ao x86-64 no Linux
+# Class de Assembly — da linguagem de máquina ao x86-64 no Linux
 
 > Um caderno de estudo e consulta para quem quer entender o que acontece entre C/C++, o sistema operacional e a CPU.
 

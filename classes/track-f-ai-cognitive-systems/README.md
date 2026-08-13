@@ -8,7 +8,7 @@ Este track fica deliberadamente depois de bases importantes dos Tracks A, C e E.
 
 ## Currículo
 
-| ID | Masterclass | Status | Dependências principais |
+| ID | Class | Status | Dependências principais |
 |---|---|:---:|---|
 | F01 | Arquitetura de Sistemas de IA | ⬜ | A/C/E |
 | F02 | Inference Runtimes e Model Serving | ⬜ | A13, C06/C07, E03 |

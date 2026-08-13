@@ -8,7 +8,7 @@
 
 ## Currículo
 
-| ID | Masterclass | Status |
+| ID | Class | Status |
 |---|---|:---:|
 | H01 | Química Geral e Estrutura Atômica | 🧭 |
 | H02 | Ligações e Estrutura Molecular | 🧭 |

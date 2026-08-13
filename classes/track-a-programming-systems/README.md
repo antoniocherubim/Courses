@@ -6,7 +6,7 @@
 
 ## Currículo
 
-| ID | Masterclass | Status | Pré-requisitos |
+| ID | Class | Status | Pré-requisitos |
 |---|---|:---:|---|
 | A01 | [Python](A01-python/) | 📘 | — |
 | A02 | [C++ e POO](A02-cpp-poo/) | 📘 | lógica de programação |

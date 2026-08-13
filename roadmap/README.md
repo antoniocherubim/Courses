@@ -13,7 +13,7 @@ Ele mantém uma **visão de longo prazo** enquanto o trabalho cotidiano permanec
 ```text
 📘 estruturado      → existe material principal utilizável no repositório
 🟡 em estruturação → existe material, mas ainda está sendo ampliado/revisado
-🧭 a externalizar  → há familiaridade/estudo prévio, mas o conhecimento ainda não foi organizado como masterclass
+🧭 a externalizar  → há familiaridade/estudo prévio, mas o conhecimento ainda não foi organizado como class
 ⬜ planejado        → conteúdo futuro ainda não estruturado
 ```
 
@@ -41,7 +41,7 @@ NOW      → onde está a atenção atual
 
 # Conhecimento a externalizar
 
-Alguns tópicos já possuem familiaridade ou estudo prévio, mas ainda não foram organizados como masterclasses:
+Alguns tópicos já possuem familiaridade ou estudo prévio, mas ainda não foram organizados como classes:
 
 ```text
 B08 Topologia
@@ -159,7 +159,7 @@ A/C — Computation ─► método e ferramenta para todas
 
 # Critério de prioridade
 
-Antes de iniciar uma nova masterclass, perguntar:
+Antes de iniciar uma nova class, perguntar:
 
 1. Isso resolve uma lacuna que bloqueia algo atual?
 2. Isso consolida conhecimento que já existe, mas está fragmentado?
@@ -177,7 +177,7 @@ necessidade ou interesse real
 ↓
 escolher um nó
 ↓
-estruturar uma masterclass
+estruturar uma class
 ↓
 praticar / produzir exemplos
 ↓

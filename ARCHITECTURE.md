@@ -4,7 +4,7 @@ O repositório separa três funções que antes estavam misturadas no README pri
 
 ## `classes/` — conhecimento disciplinar
 
-Uma masterclass ensina um tópico com profundidade suficiente para servir como material de estudo e consulta.
+Uma class ensina um tópico com profundidade suficiente para servir como material de estudo e consulta.
 
 > Os IDs são identificadores estáveis dentro de cada track. Eles ajudam a navegação e as dependências, mas não representam uma ordem temporal obrigatória de estudo.
 
@@ -32,7 +32,7 @@ escala
 adaptação
 ```
 
-O mapa não substitui as masterclasses. Ele registra relações, diferenças de significado e caminhos entre elas.
+O mapa não substitui as classes. Ele registra relações, diferenças de significado e caminhos entre elas.
 
 ## `roadmap/` — conhecimento sobre o próprio aprendizado
 
@@ -61,7 +61,7 @@ Essa separação mantém o README raiz curto e permite que o repositório cresç
 
 ## Fontes e níveis de afirmação
 
-As masterclasses são sínteses de estudo e consulta.
+As classes são sínteses de estudo e consulta.
 
 Ao integrar ciência, matemática, neurociência e IA, distinguir explicitamente quando relevante:
 

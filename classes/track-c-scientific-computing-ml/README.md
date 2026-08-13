@@ -6,7 +6,7 @@
 
 ## Currículo
 
-| ID | Masterclass | Status | Pré-requisitos |
+| ID | Class | Status | Pré-requisitos |
 |---|---|:---:|---|
 | C01 | Cálculo Numérico e Floating Point | ⬜ | B03 recomendado |
 | C02 | Álgebra Linear Computacional | ⬜ | B02 |

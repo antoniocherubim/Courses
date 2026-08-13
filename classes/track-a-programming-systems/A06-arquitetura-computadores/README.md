@@ -1,4 +1,4 @@
-# Masterclass de Arquitetura de Computadores
+# Class de Arquitetura de Computadores
 ## Da lógica digital à CPU moderna
 
 > Um caderno de estudo e consulta para entender como instruções Assembly se transformam em operações físicas dentro de um computador.

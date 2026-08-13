@@ -6,7 +6,7 @@
 
 ## Currículo
 
-| ID | Masterclass | Estado inicial | Papel |
+| ID | Class | Estado inicial | Papel |
 |---|---|:---:|---|
 | B01 | Matemática Discreta e Lógica | 🧭 | prova, estruturas discretas, computação |
 | B02 | Álgebra Linear e Geometria Analítica | 🧭 | espaços, transformações, geometria, ML |

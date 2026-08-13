@@ -1,8 +1,8 @@
-# Masterclass — Algoritmos e Estruturas de Dados em C
+# Class — Algoritmos e Estruturas de Dados em C
 
 > Um caderno de estudo e consulta para algoritmos e estruturas de dados implementados em C.
 >
-> Objetivo: aprender a organizar e transformar dados com correção e eficiência, mantendo visíveis os custos de tempo e memória. A [masterclass de Linguagem C](../A03-c/) é o pré-requisito recomendado.
+> Objetivo: aprender a organizar e transformar dados com correção e eficiência, mantendo visíveis os custos de tempo e memória. A [class de Linguagem C](../A03-c/) é o pré-requisito recomendado.
 
 [← A03 C](../A03-c/) · [↑ Track A](../README.md) · [Próxima → A05 Assembly](../A05-assembly/)
 

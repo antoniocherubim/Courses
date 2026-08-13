@@ -8,7 +8,7 @@
 
 ## Currículo
 
-| ID | Masterclass | Status |
+| ID | Class | Status |
 |---|---|:---:|
 | G01 | Mecânica Clássica | 🧭 |
 | G02 | Oscilações e Ondas | 🧭 |
